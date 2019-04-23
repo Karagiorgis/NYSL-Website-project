@@ -375,6 +375,11 @@ label {
    margin-bottom: 20px;
 }
 
+.table_locations iframe{
+    width: 100%;
+    height: auto;
+}
+
 .position1 {
    display: flex;
 }
@@ -427,11 +432,17 @@ label {
 .menu {
    font-size: 22px;
    display: flex;
+   text-align: center;
+   width: 100%;
+   display: none;
    background: black;
    justify-content: center;
 }
 
 .menu a {
+    display: flex;
+   justify-content: center;
+   margin-bottom: 8px;
    width: 210px;
    color: #e2dada;
    font-size: 22px;
@@ -443,18 +454,6 @@ label {
    display: none;
 }
 
-.menu {
-   text-align: center;
-   width: 100%;
-   display: none;
-}
-  
-.menu a {
-   display: flex;
-   justify-content: center;
-   margin-bottom: 8px;
-}
-  
 #toggle:checked + .menu {
    display: flex;
    flex-direction: column;
