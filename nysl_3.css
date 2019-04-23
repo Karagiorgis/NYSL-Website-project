@@ -1,0 +1,1040 @@
+span {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+li {
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+h2 {
+   text-transform: uppercase;
+   font-size: 24px;
+}
+
+table {
+   margin-bottom: 20px;
+}
+
+input[type="text"] {
+   border:none;
+   background: #f3f3f36e;
+   border-bottom: 1px solid black;
+}
+
+input[type="checkbox"] {
+   margin-left: 10px;
+   padding-right: 10px;
+   margin-right: 4px;
+}
+
+h3 {
+   font-weight: bold;
+}  
+
+h4 {
+   text-decoration: underline;
+   font-weight: bold;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+button {
+   margin-top: 20px;
+   width:300px;
+}
+
+html {
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   font-family: 'Route159Regular'; 
+   margin: 0 0 100px;
+}
+
+label {
+   display: flex;
+   margin-right: 16px;
+   margin-top: 8px;
+   cursor: pointer;
+}
+
+label {
+   font-size: 30px;
+   color: white;
+}
+
+.header {
+   text-align: center;
+   background-image: url(images/image5.jpg);
+   background-size: cover;
+   background-position: bottom;
+   height: 240px;
+   width: 100%;
+}
+
+.layer {
+   background: #ff1c1c30;
+   height: 100%;
+}
+
+.sitelogo {
+   margin-top: 20px;
+   width: 120px;
+}
+
+.sitename {
+   font-size: 32px;
+   color: #ffffff;
+   font-weight: 400;
+   text-shadow: 4px 2px #000000;
+   margin-top: 6px;
+}
+
+.image1 {
+   width: 320px;
+   height: 380px;
+}
+
+.image2 {
+   margin-bottom: 20px;
+   margin-left:40px; 
+}
+
+.image3 {
+   margin-right: 16px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.event-plan {
+   color: black;
+   font-size: 18px;
+   padding: 28px;
+}
+
+.event {
+   text-align: center;
+   margin-bottom: 35px;
+   font-size: 26px;
+   font-weight: bold;
+   color: black;
+   text-decoration: underline;
+}
+
+.main_content {
+   display: flex;
+   flex-direction: column;
+   margin: 14px;
+   margin-bottom: 10px;
+}
+
+.info_content {
+   display: flex;
+   flex-direction: column;
+   margin: 0px;
+   align-items: center;
+}
+  
+.text {
+   line-height: 1;
+   font-size: 20px;
+   color:black;
+}
+
+.text p {
+   margin-bottom: 35px;
+}
+
+.contact-info {
+   font-size: 18px;
+   color: black;
+   margin-top: 30px;
+}
+
+.sub_title {
+   text-align: center;
+   font-size: 18px;
+   margin-bottom: 40px;
+   margin-top: 18px;
+}
+
+.title_main {
+   text-align: center;
+   font-size: 28px;
+   font-weight: bold;
+   margin-bottom: 15px;
+   margin-top: 0px;
+}
+
+.lower_title {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.title_main p {
+   text-align: center;
+}
+
+.rules_info {
+   color: black;
+   background: #dadada;
+   padding: 6px;
+   margin-bottom: 60px;
+}
+
+.rules_info ul, ol {
+   font-size: 16px;
+}
+
+.game_title {
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 40px;
+   font-weight: bold;
+   color: black;
+}
+
+.game_info {
+   color:black;
+   font-size: 18px;
+}
+
+.table_content tr,th, td {
+   font-size: 16px;
+   border: 2px solid black;
+   text-align: center;
+   padding-bottom: 2px;
+   padding-top: 2px;
+   width: 570px;
+}
+
+.game_info th {
+   text-decoration: underline;
+   background: #8c8787;
+}
+
+.game_location {
+   margin-bottom: 15px;
+   margin-top: 15px;
+   font-size: 26px;
+   font-weight: bold;
+}
+
+.table_locations {
+   margin-bottom: 30px;
+}
+
+.table_locations td {
+   text-align: left;
+   padding-left: 15px;
+}
+
+.game_bottom { 
+   font-size: 18px;
+}
+
+.phone_num {
+   display: inline-block;
+}
+
+.email_link {
+   display: inline-block;
+}
+.form_title {
+   text-align: center;
+   font-weight: bold;
+   font-size: 40px;
+   color: black;
+}
+
+.main_form {
+   font-size: 16px;
+   margin-top: 30px;
+   margin-bottom: 70px;
+   padding: 12px;
+   color: black;
+   background: #dadada45;
+}
+
+.main_form input {
+   margin-bottom: 10px;
+}
+
+.rules_page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.home_content {
+   display: flex;
+   flex-direction: column;
+}
+
+.form_name {
+   width: 336px;
+}
+
+.form_last_name {
+   width: 336px;
+}
+
+.form_address {
+   width: 336px;
+}
+
+.form_city {
+   width: 336px;
+}
+
+.form_zip_code {
+   width: 336px;
+}
+
+.form_bday {
+   width: 336px;
+}
+
+.parent {
+   width: 336px;
+}
+
+.signature {
+   width: 336px;
+}
+
+.form_phone {
+   width: 336px;
+}
+
+.form_email {
+   width: 336px;
+}
+
+.form_date {
+   width: 336px;
+}
+
+.wrapper1 {
+   margin-bottom: 20px;
+}
+
+.wrapper2 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.first_school {
+   flex: 50%;
+   flex-wrap: wrap;
+   margin-left: 14px;
+}
+
+.second_school {
+   display: flex;
+   flex:50%;
+   flex-direction: column;
+}
+
+.child_wrap {
+   display: flex;
+}
+
+.box1 {
+   display: flex;
+   flex: 50%;
+   flex-direction: column;
+}
+
+.box2 {
+   display: flex;
+   flex-direction: column;
+   flex: 50%;
+}
+
+.box3 {
+   display: flex;
+   flex: 50%;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+.box4 {
+   display: flex;
+   flex-direction: column;
+   flex: 50%;
+   margin-bottom: 20px;
+}
+
+.position1 {
+   display: flex;
+}
+
+.uniform {
+   font-weight: bold;
+}
+
+.signature {
+   margin-top: 20px;
+}
+
+.form-box {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer {
+   text-align: center;
+   background-image: url(images/image7.jpg);
+   background-size: cover;
+   background-position: bottom;
+   font-size: 16px;
+   margin-top: 45px;
+   border-top: 4px solid black;
+   color: black;
+   font-weight: bold;
+}
+
+.footerlogo {
+   width: 55px;
+   padding: 4px;
+}
+
+.footer {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+   overflow: hidden;
+}
+
+.nav {
+   margin-bottom: 25px;
+   background: black;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.menu {
+   font-size: 22px;
+   display: flex;
+   background: black;
+   justify-content: center;
+}
+
+.menu a {
+   width: 210px;
+   color: #e2dada;
+   font-size: 22px;
+   text-decoration: none;
+   text-shadow: 2px 2px #000000;
+}
+
+#toggle {
+   display: none;
+}
+
+.menu {
+   text-align: center;
+   width: 100%;
+   display: none;
+}
+  
+.menu a {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 8px;
+}
+  
+#toggle:checked + .menu {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 45px;
+   padding-bottom: 15px;
+   margin-left: 45px;
+} 
+    
+.main_form label {
+   color: black;
+   cursor: default;
+   font-size: 18px;
+}      
+
+#toggleg {
+   display: none;
+}
+
+#toggleg:checked + .table-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   margin-left: 35px;
+}
+
+.table-content label {
+   color:black;
+}
+
+.accordion {
+   width: 100%;
+   display: flex;
+}
+
+.accordion li { 
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+
+.accordion_header {
+   width: 100%;
+   align-self: center;
+   background: #dadada45;
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+}
+
+.accordion_rules {
+   width: 100%;
+   align-self: center;
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+} 
+
+.accordion_title {
+   display: block;
+   padding: 8px 16px;
+   color:black;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.accordion_content p {
+   font-size: 22px;
+   padding-right: 10px;
+   color: black;
+}
+
+.accordion_content {
+   padding: 0px;
+   height: 0px;
+   overflow: hidden;
+}
+
+.accordion_content:target {
+   height: auto;
+   padding: 0px 0px 0px 20px;
+}
+
+.fa {
+   width: 20px;
+   text-align: center;
+   text-decoration: none;
+   margin: 0px 5px;
+}
+
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+}
+
+.fa-google {
+   background: #dd4b39;
+   color: white;
+}
+
+.fa-linkedin {
+   background: #007bb5;
+   color: white;
+}
+
+.fa-youtube {
+   background: #bb0000;
+   color: white;
+}
+
+.fa-instagram {
+   background: #125688;
+   color: white;
+}
+
+.fa-reddit {
+   background: #ff5700;
+   color: white;
+}
+
+.layer-footer{
+   background: #ff1c1c30;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+  
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+label{
+  display: inline-flex;    
+}  
+  
+.form_name {
+   width: 420px;
+}
+
+.form_last_name {
+   width: 485px;
+}
+
+.form_address {
+   width: 450px;
+}
+
+.form_city {
+   width: 240px;
+}
+
+.form_zip_code {
+   width: 200px;
+}
+
+.form_bday {
+   width: 150px;
+}
+
+.parent {
+   width: 430px;
+}
+
+.signature {
+   width: 242px;
+}
+
+.form_phone {
+   width: 444px;
+}
+
+.form_email {
+   width: 448px;
+}
+
+.form_date {
+   width: 136px;
+}
+  
+.image1{
+    border-right: 5px solid black;
+}
+  
+.main{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}  
+  
+.text {
+   padding:8px;
+   font-size: 16px;
+}
+  
+.main_content {
+   display: flex;
+   flex-direction: row;
+}  
+  
+.info_content {
+   display: flex;
+   flex-direction: row;
+}  
+  
+.image2{
+   margin: 0px;
+   border-right: 5px solid black;
+}
+
+.image3{
+   border-right: 5px solid black;
+}  
+  
+.border-button {
+   position: relative;
+   display: flex;
+   margin: 0.5em;
+   border: solid 5px #000000;
+   background: #d0d1de;
+}
+
+.border-button:after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   border: solid 10px #000000;
+   margin: -15px;
+   z-index: -1;
+   transition: transform 0.6s linear;
+   transform: scale(0.97, 0.93);
+}
+
+.border-button:hover::after { 
+   transform: scale(1,1);   
+}  
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  
+.form_name {
+   width: 300px;
+}
+
+.form_last_name {
+   width: 300px;
+}
+
+.form_address {
+   width: 748px;
+}
+
+.form_city {
+   width: 410px;
+}
+
+.form_zip_code {
+   width: 325px;
+}
+
+.form_bday {
+   width: 328px;
+}
+
+.parent {
+   width: 730px;
+}
+
+.signature {
+   width: 370px;
+}
+
+.form_phone {
+   width: 280px;
+}
+
+.form_email {
+   width: 325px;
+}
+
+.form_date {
+   width: 240px;
+}  
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+h2 {
+   font-size: 28px;
+} 
+
+label {
+   display: none;
+}
+  
+.text {
+   padding: 10px;  
+}  
+
+.sitelogo {
+   margin-top: 20px;
+   width: 200px;
+}
+  
+.sitename {
+   font-size: 58px;
+}  
+
+.header {
+   height: 300px;
+}  
+
+.event-plan {
+   font-size: 24px;
+}  
+  
+.image1 {
+   width: 300px;
+   height: 340px;
+}
+  
+.image2 {
+   margin:0px;
+}  
+  
+.main_content {
+   width: 100%;
+   margin: 0px;
+}
+  
+.info_content { 
+   width: 100%;
+}   
+  
+.nav {
+   height: 50px;
+   line-height: 70px;
+   margin-bottom: 25px;
+}  
+    
+.menu {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+   align-items: center;
+   height: 50px;
+   border-bottom: 4px solid #14ff14;
+   background: black;
+}
+
+.menu a {
+   font-size: 28px;
+   padding: 8px;
+   display: inline;
+   margin-left: 18px;
+}
+
+.menu a:hover {
+   color:green;
+   transition: 1s ease;
+}  
+
+.event:hover {
+   transform: scale(1, 1);
+   transition: 3s ease;
+   font-size:24px;
+}
+
+.event {
+   margin-top: 0px;
+}
+  
+.main_form label {
+   color: black;
+   margin-right: 0px;
+   margin-top: 0px;
+   cursor: default;
+   display:inline-flex;
+   font-size: 18px;
+}
+  
+.table_content tr,th, td {
+   font-size: 22px;
+}
+  
+.game_title {
+   font-size: 32px;
+}
+  
+.form_name {
+   margin-right: 10px;
+   width: 370px;
+   margin-left: 8px;
+   margin-bottom: 20px;
+}
+
+.form_last_name {
+   width: 432px;
+   margin-left: 8px;
+}
+
+.form_address {
+   width: 954px;
+   margin-left: 8px;
+   margin-bottom: 20px;
+}
+
+.form_city {
+   width: 530px;
+   margin-left: 8px;
+}
+
+.form_zip_code {
+   margin-bottom: 20px;
+   width: 420px;
+   margin-left: 8px;
+}
+
+.form_bday {
+   width: 330px;
+   margin-left: 8px;
+   margin-bottom: 20px
+}
+ 
+.parent {
+   width: 940px;
+   margin-left: 8px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.rules_page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form_phone {
+   width: 420px;
+   margin-left: 8px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.form_email {
+   width: 402px;
+   margin-left: 8px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}  
+ 
+.wrapper1 {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.wrapper2 {
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   flex-direction: column;
+}  
+  
+.main_form {
+   font-size: 18px;
+}
+  
+.signature {
+   width: 600px;
+}  
+  
+.wrap {
+   display: flex;
+   justify-content:space-between; 
+}
+
+.accordion_title {
+   font-size: 28px;
+}  
+  
+.event {
+   font-size: 32px;
+}  
+  
+.main {
+   font-size: 26px;
+   flex-direction: row;
+   display: flex;
+   background: #dadada45;
+}  
+  
+.contact-info {
+   font-size: 24px;
+   color: black;
+   margin:0px;
+}
+  
+.rules_info {
+   margin-top: 20px;
+}  
+  
+.rules_info ul, ol {
+   font-size: 20px;
+}  
+  
+.title_main {
+   text-align: center;
+   font-size: 34px;
+   font-weight: bold;
+   margin-top: 25px;
+}
+
+.lower_title {
+   text-align: center;
+   font-size:24px;
+   font-weight: bold;
+}
+  
+.sub_title {
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.footer {
+   text-align: center;
+   background-image: url(images/image7.jpg);
+   background-size: cover;
+   background-position: bottom;
+   font-size: 18px;
+   margin-top: 45px;
+   border-top: 4px solid black;
+   color: black;
+   font-weight: bold;
+}
+ 
+.fa {
+   width: 20px; 
+}
+  
+.accordion_title {
+   font-size: 22px;
+} 
+  
+.game_bottom { 
+   font-size: 20px;
+}  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

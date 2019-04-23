@@ -1,0 +1,282 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  
+   <head>
+     <meta charset="utf-8">
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/route-159" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="nysl_3.css">
+     <title>Registration page</title>
+   </head>
+      
+    <body>
+    
+      <!--header-->
+      <div class="header">
+      <!--header transparent layer on picture-->
+      <div class="layer">
+      <!--header logo image-->
+      <img src="images/logo.png" alt="logo" class="sitelogo">
+      <!--website main title-->
+      <h1 class="sitename">Northside Youth Soccer League</h1>
+      
+    </div>    
+   
+  </div>
+     
+    <!--Start Main menu/Navigation bar-->
+    <div class="nav">
+    
+    <!--toggle and checkbox for hamburger on mobile-->
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+    
+    <!--Main menu/Navigation bar items/content-->    
+    <div class="menu">
+        
+      <div class="menu-home"><a href="index.html">Home</a></div>
+      <div class="menu-about"><a href="about.html#first">About NYSL</a></div>
+      <div class="menu-contact"><a href="contact.html">Contact</a></div>
+      <div class="menu-rules"><a href="rules.html">Rules</a></div>
+      <div class="menu-game"><a href="game_info.html">Game Info</a></div>
+      <div class="menu_register"><a href="registration.html">Registration Form</a></div>
+       
+    </div>
+     
+  <!--End Main menu/Navigation bar--> 
+    
+ </div>
+      
+    <div class="container">
+       
+    <!--Start of main form/content-->
+    <h1 class="form_title">Registration Form</h1>
+ 
+     <div class="main_form">
+       
+       <form action="show_data.html" method="get">
+      
+        <div class="form-box">
+        <div><label>Player's First Name:</label><input type="text" name="first_name" class="form_name">
+        <label>Last Name:</label><input type="text" name="last_name" class="form_last_name"></div>
+        
+        <div><label>Street Address:</label><input type="text" name="address" class="form_address"></div>
+        
+        <div><label>City:</label><input type="text" name="city" class="form_city">
+        <label>Zip Code:</label><input type="text" name="zip_code" class="form_zip_code"></div>
+        
+        <div><label>Birth Date (mm/dd/yyyy):</label><input type="text" name="bday" class="form_bday">
+        Gender:
+        <input type="checkbox" name="gender" value="female"> Female
+        <input type="checkbox" name="gender" value="male" > Male
+        </div>
+        <p>
+        Grade:
+        <input type="checkbox" name="grade" value="Pre-School">Pre-School 
+        <input type="checkbox" name="grade" value="1st"> 1<sup>st</sup>
+        <input type="checkbox" name="grade" value="2nd"> 2<sup>nd</sup>
+        <input type="checkbox" name="grade" value="3rd"> 3<sup>rd</sup>
+        <input type="checkbox" name="grade" value="4th"> 4<sup>th</sup>
+        <input type="checkbox" name="grade" value="5th"> 5<sup>th</sup>
+        </p>
+        <div><label>Parent/Guardian:</label><input type="text" name="parent" class="parent"></div>
+        <div><label>Contact Phone:</label><input type="text" name="phone" class="form_phone">
+        <label>Contact Email:</label><input type="text" name="email" class="form_email"></div>
+        </div>
+        
+        <h4>Which elementary schools do you live near?</h4>
+       
+        <div class="wrapper1">
+        
+        <div class="first_school">
+        
+        <h4>First Closest School:</h4>
+        
+        <div class="child_wrap">
+        
+        <div class="box1">
+        <div><input  type="checkbox" name="school" value="AJ_Katzenmaier"> AJ Katzenmaier</div> 
+        <div><input  type="checkbox" name="school" value="Greenbay"> Greenbay</div> 
+        <div><input  type="checkbox" name="school" value="Howard_A_Yeager"> Howard A Yeager</div> 
+        </div>
+        
+        <div class="box2">
+        <div><input type="checkbox" name="school" value="Marjorie_P_Hart"> Marjorie P Hart</div> 
+        <div><input type="checkbox" name="school" value="North_Elementary"> North Elementary</div> 
+        <div><input type="checkbox" name="school" value="South_Elementary"> South Elementary</div> 
+      </div>
+      
+    </div>
+    
+  </div>
+        
+        <div class="second_school">
+        
+        <h4>Second Closest School:</h4>
+        
+        <div class="child_wrap">
+        
+        <div class="box1">
+        <div><input type="checkbox" name="school" value="AJ_Katzenmaier"> AJ Katzenmaier</div>
+        <div><input type="checkbox" name="school" value="Greenbay"> Greenbay</div>
+        <div><input type="checkbox" name="school" value="Howard_A_Yeager"> Howard A Yeager</div>
+        </div>
+        
+        <div class="box2">
+        <div><input type="checkbox" name="school" value="Marjorie_P_Hart"> Marjorie P Hart</div> 
+        <div><input type="checkbox" name="school" value="North_Elementary"> North Elementary</div> 
+        <div><input type="checkbox" name="school" value="South_Elementary"> South Elementary</div> 
+      </div>
+      
+    </div>
+    
+  </div>
+                
+</div>
+        
+       <div class="wrapper2">
+      
+       <div class="box3">
+        
+       <h4>What position(s) do you normally play? (check all that apply)</h4>
+        
+       <div class="position1">
+       <div><input type="checkbox" name="positions" value="Forward"> Forward</div>
+       <div><input type="checkbox" name="positions" value="Defense"> Defense</div>
+       </div>
+        
+       <div class="position1">
+       <div><input type="checkbox" name="positions" value="Midfield"> Midfield</div>
+       <div><input type="checkbox" name="positions" value="Goalkeeper"> Goalkeeper</div>
+       </div>
+       
+     </div>
+        
+       <div class="box4">
+        
+       <h4>What position(s) do you want to play?  (check all that apply)</h4>
+        
+       <div class="position1">
+       <div><input type="checkbox" name="positions" value="Forward"> Forward</div>
+       <div><input type="checkbox" name="positions" value="Defense"> Defense</div>
+       </div>
+        
+       <div class="position1">
+       <div><input type="checkbox" name="positions" value="Midfield"> Midfield</div>
+       <div><input type="checkbox" name="positions" value="Goalkeeper"> Goalkeeper</div>
+       </div>
+    
+    </div>
+  
+</div>
+       
+       
+       <div class="uniform"><input type="checkbox" name="Uniforms" value="Uniform">Already Have a Uniform</div>
+        
+       <div class="wrapper1">
+        
+       <div class="first_school">
+      
+       <h4>Jersey Size:</h4>
+        
+       <div class="child_wrap">
+        
+       <div class="box1">
+       <div><input type="checkbox" name="Uniforms" value="Youth_Small"> Youth Small </div>
+       <div><input type="checkbox" name="Uniforms" value="Youth_Medium"> Youth Medium</div>
+       <div><input type="checkbox" name="Uniforms" value="Youth_Large"> Youth Large</div>
+       <div><input type="checkbox" name="Uniforms" value="Small"> Small</div>
+       </div>
+        
+       <div class="box2">
+       <div><input type="checkbox" name="Uniforms" value="Medium"> Medium</div>
+       <div><input type="checkbox" name="Uniforms" value="Large"> Large</div>
+       <div><input type="checkbox" name="Uniforms" value="Extra_Large"> Extra Large</div>
+       </div>
+    
+    </div>
+  
+ </div>
+       
+       <div class="second_school">
+        
+       <h4>Short Size:</h4>
+        
+       <div class="child_wrap">
+       <div class="box1">
+       <div><input type="checkbox" name="Uniforms" value="Youth_Small"> Youth Small </div>
+       <div><input type="checkbox" name="Uniforms" value="Youth_Medium"> Youth Medium</div>
+       <div><input type="checkbox" name="Uniforms" value="Youth_Large"> Youth Large</div>
+       <div><input type="checkbox" name="Uniforms" value="Small"> Small</div>
+       </div>
+       
+       <div class="box2">
+       <div><input type="checkbox" name="Uniforms" value="Medium"> Medium</div>
+       <div><input type="checkbox" name="Uniforms" value="Large"> Large</div>
+       <div><input type="checkbox" name="Uniforms" value="Extra_Large"> Extra Large</div>
+       </div>
+      
+      </div>
+    
+    </div>
+  
+  </div>
+        
+       <h4>Permission to Play</h4>
+       
+       <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+       Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+       accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+       employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+       on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+       sponsored activities, which transportation.</p>
+         
+       <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+       cancellation policy and agree to its terms.</p>
+     
+       <p>
+       <label>Parent/Guardian Signature:</label><input type="text" name="signature" class="signature">
+       <label>Date:</label><input type="text" name="date" class="form_date">
+       </p>
+        
+       <div class="button">
+       <button type="submit">Submit</button>
+       </div>
+
+      </form>
+     <!--End of form/main content-->
+    </div>
+
+  </div>
+    
+  <!--Footer-->
+   <div class="social">
+   
+    <!--Footer social media icons/links-->
+    
+     <div class="footer">
+     <!--Footer layer background-->
+      <div class="layer-footer">
+      <div class="icons">
+        <img src="images/logo.png" alt="logo" class="footerlogo">&copy; Copyright 2019
+        <a href="http://www.google.com" class="fa fa-google"></a>
+        <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
+        <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+        <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+      </div>
+
+     </div>
+   </div>
+
+ </div>
+   
+  <!--End of footer-->
+    
+ </body>
+ 
+</html>   
+  
+
